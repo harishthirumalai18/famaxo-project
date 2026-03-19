@@ -514,31 +514,36 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    text-align: left;
     }
 
     .footer-left h2 {
     font-size: 36px;
     margin-bottom: 10px;
+    text-align: left;
     }
 
     .footer-left p {
     max-width: 300px;
+    text-align: left;
     }
 
     .footer-center {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    text-align: left;
     }
 
     .footer-center h3 {
     font-size: 20px;
     font-weight: bold;
+    text-align: left;
     }
 
     .footer-right {
     max-width: 250px;
-    text-align: right;
+    text-align: left;
     }
 
     .footer-right p {
@@ -560,6 +565,7 @@ margin-left: 40%;
     gap: 12px;
     width: 144px;     
   font-size: 16px;
+  text-align: left;
     }
 
     .footer-copy {
@@ -570,10 +576,13 @@ margin-left: 40%;
     .footer-top {
         flex-direction: column;
         gap: 30px;
+        text-align: left;
     }
 
     .footer-right {
         text-align: left;
+        max-width: 300px;
+  margin: auto;
     }
 
     
