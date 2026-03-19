@@ -9,8 +9,6 @@
     background: #000;
     color: #fff;
     }
-
-    /* NAVBAR */
     .navbar {
     display: flex;
     justify-content: space-between;
@@ -84,18 +82,18 @@
     justify-content: space-between;
     align-items: center;
     }
-    /* ABOUT TEXT BLOCK */
+    
     .about-left {
-    max-width: 819px;   /* from figma */
+    max-width: 819px;  
     }
 
-    /* PARAGRAPH */
+    
     .about-left p {
     max-width: 819px;
-    color: #e7e5e4;     /* from figma */
+    color: #e7e5e4;    
 
-    line-height: 1.6;   /* better readability */
-    font-size: 16px;    /* standard body text */
+    line-height: 1.6;   
+    font-size: 16px;   
 
     }
     .about-left p {
@@ -113,7 +111,7 @@
     }
 
     }
-    /* RIGHT SIDE CONTAINER */
+   
     .about-right {
     display: flex;
     flex-direction: column;
@@ -129,24 +127,24 @@
     .highlight {
     color: #f5c518;
     }
-    /* BIG NUMBER */
+
     .highlight {
     font-family: 'General Sans', sans-serif;
     font-weight: 700;
-    font-size: 67px;   /* 🔥 only for numbers */
+    font-size: 67px;   
     line-height: 1.15;
     letter-spacing: -1%;
     color: #eab308;
     }
 
-    /* TEXT BELOW */
+    
     .stat p {
-    width: 272px;      /* from figma */
+    width: 272px;     
     height: 36px;
 
     font-family: 'General Sans', sans-serif;
-    font-weight: 600;  /* semibold */
-    font-size: 28px;   /* 🔥 correct size */
+    font-weight: 600;  
+    font-size: 28px;   
     line-height: 1.3;
 
     color: #f5f5f4;
@@ -183,7 +181,7 @@
     }
     .story {
     text-align: center;
-    padding: 40px 80px;   /* from figma */
+    padding: 40px 80px;  
     border-radius: 24px;
     }
 
@@ -195,8 +193,8 @@
 
     .story-container img {
     width: 100%;
-    max-width: 1206px;   /* 🔥 match figma */
-    height: 488px;       /* 🔥 fixed height */
+    max-width: 1206px;   
+    height: 488px;    
     object-fit: cover;
     border-radius: 24px;
     justify-content: center;
@@ -305,16 +303,16 @@
     font-size: 18px;
     }
     .why {
-    width: 100%;              /* Fill */
-    max-width: 1200px;       /* control layout */
+    width: 100%;              
+    max-width: 1200px;      
 
-    height: auto;            /* Hug */
+    height: auto;            
 
     padding: 80px 40px;
     border-radius: 24px;
     background: #1c1917;
 
-    margin: 40px auto;       /* center */
+    margin: 40px auto;      
     }
 
     .why h2 {
@@ -338,8 +336,8 @@
     border-radius: 12px;
 
     display: flex;
-    flex-direction: column;   /* 🔥 important */
-    align-items: flex-start;  /* 🔥 left align */
+    flex-direction: column;   
+    align-items: flex-start;  
 
     transition: all 0.3s ease;
     }
@@ -363,7 +361,7 @@
     color: #aaa;
     font-size: 14px;
     }
-    /* ICON BOX */
+   
     .icon-box {
     width: 48px;
     height: 48px;
@@ -378,7 +376,7 @@
     margin-bottom: 15px;
     }
 
-    /* ICON IMAGE */
+    
     .icon-box img {
     width: 24px;
     height: 24px;
@@ -403,11 +401,11 @@
     }
 
     .contact-form {
-    max-width: 646px;   /* from Figma */
+    max-width: 646px;   
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 32px;          /* from Figma */
+    gap: 32px;          
     }
 
     .input-group {
@@ -560,7 +558,7 @@ margin-left: 40%;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    width: 144px;     /* from figma */
+    width: 144px;     
   font-size: 16px;
     }
 
@@ -581,10 +579,10 @@ margin-left: 40%;
     
 .footer-bottom {
   display: flex;
-  flex-direction: column;   /* 🔥 stack rows */
+  flex-direction: column;   
   align-items: flex-start;
 
-  margin-left: 35%;   /* 🔥 moves towards center/right */
+  margin-left: 35%;   
   gap: 30px;
 }
     }
